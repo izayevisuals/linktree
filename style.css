@@ -16,17 +16,18 @@ html {
 }
 
 body {
+    scroll-behavior: smooth;
     padding: 0;
     margin: 0;
     color: white;
-    height: 100vh;
+    height: 100%;
     /* background: url('Untitled design (2).png'); */
     background-color: black;
     background: url('Untitled design.gif');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment:scroll;
-    background-size: cover;
+    background-size: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -42,6 +43,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0rem;
+    padding: 0rem;
 }
 
 .socialLinks {
@@ -52,10 +54,11 @@ body {
 }
 
 a {
+    color: white;
     text-decoration: none;  
 }
 
-button {
+button, button:visited {
     font-size: 1.2rem;
     padding: 0.3rem;
     margin: 0.6rem;
@@ -68,12 +71,12 @@ button {
     box-shadow: 4px 4px #E83E31;
 }
 
-p {
-    font-size: 1.5rem;
+h1 {
+    font-size: 1.7rem;
     text-decoration: none;
     color: #F1E62E;
     padding: 0;
-    margin: 0.2rem;
+    margin: 0.5rem;
 }
 
 button:hover {
