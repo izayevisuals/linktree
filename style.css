@@ -19,10 +19,7 @@ body {
     scroll-behavior: smooth;
     padding: 0;
     margin: 0;
-    color: white;
     height: 100%;
-    /* background: url('Untitled design (2).png'); */
-    background-color: black;
     background: url('Untitled design.gif');
     background-repeat: no-repeat;
     background-position: center;
