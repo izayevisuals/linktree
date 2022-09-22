@@ -1,0 +1,89 @@
+/* Brand Colors:
+
+- Blue: #30B0D8
+- Red: #E83E31
+- Yellow: #F1E62E*/
+
+/* Brand Font:
+
+font-family: 'Roboto Condensed', sans-serif;
+
+*/
+
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    color: white;
+    height: 100vh;
+    /* background: url('Untitled design (2).png'); */
+    background-color: black;
+    background: url('Untitled design.gif');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment:scroll;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+}
+
+.linkBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0rem;
+}
+
+.socialLinks {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;  
+}
+
+button {
+    font-size: 1.2rem;
+    padding: 0.3rem;
+    margin: 0.6rem;
+    text-decoration: none;
+    color: white;
+    width: 15rem;
+    font-family: 'Oswald', sans-serif;
+    background-color: #30B0D8;
+    border: none;
+    box-shadow: 4px 4px #E83E31;
+}
+
+p {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #F1E62E;
+    padding: 0;
+    margin: 0.2rem;
+}
+
+button:hover {
+    background-color: #E83E31;
+    box-shadow: 4px 4px #30B0D8;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+#logo {
+    max-width: 28%;
+    border-radius: 50%;
+}
