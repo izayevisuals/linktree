@@ -26,7 +26,7 @@ body {
     background: url('Untitled design.gif');
     background-repeat: no-repeat;
     background-position: center;
-    background-attachment:scroll;
+    background-attachment: fixed;
     background-size: cover;
     display: flex;
     flex-direction: column;
